@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -45,6 +46,14 @@ public class MyActivity extends AppCompatActivity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        /** UNUSED code (example for strings localization) **/
+        // Get a string resource from your app's Resources
+        String hello = getResources().getString(R.string.hello_world);
+
+        // Or supply a string resource to a method that requires a string
+        TextView textView = new TextView(this);
+        textView.setText(R.string.hello_world);
     }
 
     @Override
