@@ -5,4 +5,8 @@
     <string name="button_send">Send</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="hello_world">Hello world!</string>
+    <string name="intro_next">Next</string>
+    <string name="intro_finish">Start</string>
+    <string name="intro_step_2">Step 2</string>
+    <string name="intro_img_alt">Content descr</string>
 </resources>
